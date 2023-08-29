@@ -1,0 +1,56 @@
+#frame4outer{
+    display: flex;
+    border-radius: 100px;
+    background: #171E27;
+    width: 80%;
+    height: auto;
+    flex-shrink: 0;
+    margin: auto;
+    text-align: left;
+    padding: 80px;
+}
+#frame4container{
+    width: auto;
+}
+#frame4container h2{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    margin-bottom: 80px;
+}
+
+#frame4container p{
+    color: #CECECE;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width: 768px) {
+    #frame4outer{
+        display: inline-block;
+        height: auto;
+        
+    }
+    .graph{
+        display: inline-block;
+        margin: auto;
+        height: 400px;
+
+    }
+    #frame4container{
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .frame4btn{
+        
+        gap: 50px;
+        
+    }
+  }

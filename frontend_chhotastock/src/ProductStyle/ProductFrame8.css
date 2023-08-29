@@ -1,0 +1,34 @@
+
+#Productframe8container{
+    border-radius: 50px;
+    background: linear-gradient(180deg, #FEC175 0%, #FB9077 100%);
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    text-align: left;
+    padding: 15px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+.formbox{
+    border-radius: 25px;
+background: #FFF;
+width: 150px;
+height: auto;
+flex-shrink: 0;
+text-align: left;
+padding: 20px;
+
+}
+.forms{
+    display: flex;
+gap:100px;
+}
+
+@media (max-width: 1014px) {
+    .forms{
+        display: block;
+    gap:20px;
+    }
+  }

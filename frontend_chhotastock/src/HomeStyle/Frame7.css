@@ -1,0 +1,71 @@
+#frame7container{
+    width: 90%;
+    margin: auto;
+}
+#topbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.frame7smallbox h3{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.frame7smallbox p{
+    color: #000;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#topbox h2{
+    color: #171E27;
+font-family: Gilroy;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+}
+
+.frame7smallbox{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+background: #F3F3F3;
+width: 250px;
+height: 159px;
+flex-shrink: 0;
+margin-right: 10px;
+}
+#bottombox{
+    margin-top: 200px;
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+
+.smallbox{
+    border-radius: 20px;
+    background: #F3F3F3;
+    width: 201px;
+height: 290px;
+flex-shrink: 0;
+padding: 10px;
+}
+.smallbox p{
+    color: #000;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

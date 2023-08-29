@@ -1,0 +1,50 @@
+#frame5container{
+    width: 95%;
+    text-align: left;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+#frame5container h2{
+    color: #171E27;
+font-family: Gilroy;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+#frame5container .para1{
+    color: #777;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; 
+}
+.valuebox{
+    border-radius: 10px;
+background: #222529;
+width: 270px;
+height: auto;
+flex-shrink: 0;
+padding: 10px;
+}
+
+.valuebox .imgbox{
+    border-radius: 10px;
+background: #171E27;
+box-shadow: 4px 4px 4px 0px rgba(91, 87, 87, 0.25) inset;
+width: 96px;
+height: 63px;
+flex-shrink: 0;
+text-align: center;
+}
+
+#valueboxcontainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,39 @@
+
+#Homelogo{
+    width: 318px;
+height: 91px;
+flex-shrink: 0;
+}
+
+.white::placeholder {
+    color: white;
+    opacity: 1;
+    height: 21px;
+  }
+  .white{
+    width:493px;
+    height:38px;
+    border-radius:10px;
+    background:#81878C
+  }
+  button{
+width: 120px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 35px;
+background: linear-gradient(99deg, #FEC826 0%, #F3A61D 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: #171E27;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+line-height: normal;
+display: flex;
+align-items: center;
+
+  }
+  button img{
+    width: 34px;
+    height: 34px;
+  }
+  

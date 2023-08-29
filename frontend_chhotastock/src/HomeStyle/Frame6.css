@@ -1,0 +1,37 @@
+#frame6container{
+    width: 90%;
+    margin: auto;
+}
+#frame6container .frame6box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.frame6ptag{
+    color: #777;
+font-family: Gilroy;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.frame6box{
+    margin-top: 50px;
+}
+.imgbackground{
+    display: flex;
+    border-radius: 50px;
+background: #B1B1B1;
+width: 267px;
+height: 150px;
+flex-shrink: 0;
+justify-content: center;
+align-items: center;
+}
+
+@media (max-width: 768px) {
+    #frame6container .frame6box{
+        display: inline;
+        margin: auto;
+    }
+  }

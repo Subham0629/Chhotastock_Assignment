@@ -1,0 +1,24 @@
+#KnowledgeContainer{
+    align-items: center;
+    background-color:#171E27;
+    margin-top: 0px;
+    border: 1px solid #171E27;
+}
+#KnowledgeContainer h1{
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#KnowledgeContainer .knowledgeptag{
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

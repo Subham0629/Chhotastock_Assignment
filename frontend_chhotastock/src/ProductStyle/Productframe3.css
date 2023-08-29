@@ -1,0 +1,40 @@
+.prodframe3square{
+    border-radius: 50px;
+background: #F3F3F3;
+width: 267px;
+height: 257px;
+flex-shrink: 0;
+padding: 5px;
+text-align: center;
+padding-bottom:20px;
+}
+.prodframe3squareblue{
+    border-radius: 50px;
+background: #171E27;
+width: 301px;
+height: 290px;
+flex-shrink: 0;
+margin-top: -10px;
+padding: 5px;
+text-align: center;
+padding-bottom:20px;
+}
+
+.prodframe3square .firsthead{
+    color: #979797;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.prodframe3square .bottomhead{
+    color: #979797;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
