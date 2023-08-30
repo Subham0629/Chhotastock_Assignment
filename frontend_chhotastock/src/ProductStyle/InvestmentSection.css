@@ -5,16 +5,40 @@
     margin-bottom: 200px;
     text-align: left;
 }
-.card1{
+/* .card1{
     position: absolute;
     margin: auto;
-    width: 350px;
+    width: 300px;
 height: 400px;
 transform: rotate(-14.407deg);
 flex-shrink: 0;
 border-radius: 50px;
 background: linear-gradient(138deg, #74DB96 0%, #1DF5F4 99.91%);
+margin-left: 300px;
 }
+.card2{
+  position: absolute;
+  left: 550px;
+  top: 655px;
+  margin-right: 500px;
+  width: 300px;
+height: 500px;
+transform: rotate(2.739deg);
+flex-shrink: 0;
+border-radius: 50px;
+background: linear-gradient(337deg, #C0CEED 0%, #CDBFD3 7.81%, #D100CE 31.77%, #FC583D 44.27%, #E5CCD1 71.35%, #FDD8D0 78.13%, #FA8A77 99.91%);
+}
+.card3{
+  position: absolute;
+  margin-left: 400px;
+  margin-left: -400px;
+  width: 300px;
+height: 450px;
+transform: rotate(25.199deg);
+flex-shrink: 0;
+border-radius: 50px;
+background: linear-gradient(85deg, #FEC974 0%, #FA8A77 99.91%);
+} */
 .card1 img{
     width: 73px;
 height: 96px;
@@ -34,17 +58,7 @@ margin-top: -15px;
 margin-left: 18px;
 }
 
-.card2{
-    position: absolute;
-    left: 550px;
-    top: 655px;
-    width: 350px;
-height: 500px;
-transform: rotate(2.739deg);
-flex-shrink: 0;
-border-radius: 50px;
-background: linear-gradient(337deg, #C0CEED 0%, #CDBFD3 7.81%, #D100CE 31.77%, #FC583D 44.27%, #E5CCD1 71.35%, #FDD8D0 78.13%, #FA8A77 99.91%);
-}
+
 .card2 img{
     width: 73px;
     height: 96px;
@@ -64,16 +78,7 @@ margin-top: -15px;
 margin-left: 18px;
 }
 
-.card3{
-    position: absolute;
-    margin-left: 400px;
-    width: 350px;
-height: 450px;
-transform: rotate(25.199deg);
-flex-shrink: 0;
-border-radius: 50px;
-background: linear-gradient(85deg, #FEC974 0%, #FA8A77 99.91%);
-}
+
 .card3 img{
     width: 73px;
     height: 96px;
@@ -93,3 +98,30 @@ margin-top: 15px;
     margin-top: -5px;
 margin-left: 18px;
 }
+
+.investbox{
+    display: flex;
+    justify-content:space-between;
+    gap: 15px;
+  }
+  .investboxdiv{
+    width: 100%;
+  }
+  #investboxbtn{
+    width: auto;
+    margin-top: 15px;
+  }
+@media (max-width: 768px) {
+  .investbox{
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .investboxdiv{
+    width: 100%;
+  }
+  #investboxbtn{
+    margin: auto;
+    margin-top: 20px;
+  }
+  }

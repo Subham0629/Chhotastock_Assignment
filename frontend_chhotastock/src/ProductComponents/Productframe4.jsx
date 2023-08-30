@@ -10,8 +10,8 @@ const Productframe4 = () => {
         <button style={{width:"auto" ,padding:"5px",fontWeight:"bold"}}>Try Investpe Now</button>
         </div>
       </div>
-      <div className='graph' style={{marginTop:"265px",width:"40%",height:"300px",marginLeft:"-350px"}}>
-        <img  width={"300px"} style={{position:"absolute",marginLeft:"300px",
+      <div  style={{marginTop:"265px",width:"40%",height:"300px",marginLeft:"-350px"}}>
+        <img  width={"300px"} style={{position:"unset",marginLeft:"300px",
     transform: "rotate(1.0deg)",width:"530px",height:"365px"}} src={hand} alt="page1" />
         
       </div>

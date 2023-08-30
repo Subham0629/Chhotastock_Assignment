@@ -28,10 +28,37 @@ flex-shrink: 0;
 justify-content: center;
 align-items: center;
 }
+.frame6leftbox{
+    width: 40%;
+}
+.frame6images{
+    width: 60%;
+    text-align: left;
+}
+.frame6boxtext{
+    width: 40%;
+}
 
 @media (max-width: 768px) {
     #frame6container .frame6box{
         display: inline;
         margin: auto;
+    }
+    .frame6ptag{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .frame6leftbox{
+        width: 100%;
+        margin: auto;
+    }
+    .frame6images{
+        width: 100%;
+        text-align: center;
+    }
+    .frame6boxtext{
+        width: 100%;
+        text-align: center;
     }
   }

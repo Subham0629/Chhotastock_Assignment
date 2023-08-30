@@ -12,10 +12,10 @@ const Frame6 = () => {
   return (
     <div id='frame6container'>
       <div className='frame6box' >
-        <div style={{width:"40%"}}> 
+        <div className='frame6leftbox' > 
             <p className='frame6ptag'>Some partners who make InvestPe products possible—</p>
         </div>
-        <div style={{width:"60%",textAlign:"left"}}>
+        <div className='frame6images' >
             <img width={"30%"} src={Kotak} alt="" />
             <img width={"30%"} src={Angel} alt="" />
             <img width={"30%"} src={Upstox} alt="" />
@@ -26,7 +26,7 @@ const Frame6 = () => {
         </div>
       </div>
       <div className='frame6box' >
-        <div style={{width:"40%"}}> 
+        <div className='frame6boxtext' > 
             <p className='frame6ptag'>...and a few of the businesses building some incredible solutions with InvestPe</p>
         </div>
         <div style={{width:"60%",display:"flex",gap:"25px"}}>
